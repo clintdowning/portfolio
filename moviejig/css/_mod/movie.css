@@ -1,0 +1,311 @@
+/* CSS - MOVIE */
+
+/* BASIC */
+
+	.movie_image {
+		width: 100%;
+		height: 100%;
+		border-radius: 7px;
+	}
+
+	/*h2.movie {
+		font-size: 24px;
+	}*/
+	
+	h2.movie {
+		background: #f25422 none repeat scroll 0 0;
+		border-bottom: 1px solid #060606;
+		border-radius: 6px;
+		color: #292929;
+		font-size: 24px;
+		font-weight: bold;
+		font-variant: small-caps;
+		padding-top: 4px;
+		padding-bottom: 4px;
+		padding-left: 10px;
+	}
+	
+	.movie_stats > div > div:nth-child(1),
+	.movie_stats > p > span:nth-child(1) {
+		color: #f25422;
+	}
+	
+	.movie_basic .text > div > div:nth-child(1), 
+	.movie_basic .text p span:nth-child(1) {
+		font-size: 16px;
+		font-weight: bold;
+	}
+	
+	.movie_stats > p > span:nth-child(2) {
+		color: #fff;
+	}
+	
+	.movei_stats p {
+		margin-bottom: 10px;
+	}
+	
+	.movie_basic .text {
+		width: 670px;
+	}
+
+	.movie_basic .text p span:nth-child(2) {
+		font-weight: normal;
+		text-decoration: none;
+	}
+	
+	.extra {
+		width: 100%;
+		height: 0px;
+		margin: 0 auto;
+	}
+	
+	.trailer .frame {
+		background-image: url(/images/mcclint/trailer_frame.png);
+		height: 464px;
+		width: 614px;
+		padding-top: 1px;
+		padding-left: 8px;
+		border-radius: 25px;
+	}
+	
+	.video {
+		width: 560px;
+		height: 315px;
+		margin-left: 27px;
+		margin-top: 75px;
+	}
+	
+	.hidden {
+		display: none;
+	}
+	
+	.not_hidden {
+		display: block;
+	}
+	
+	.shut {
+		height: 0px;
+	}
+	
+/* RANK BOX */
+
+	.top_section .rating {
+		width: 90px;
+	}
+	
+	.rating .inner {
+		margin: 0;
+	}
+	
+/* ACTORS */
+
+	.starring {
+		height: 250px;
+		overflow: hidden;
+		margin-bottom: 10px;
+	}
+	
+	.nodes .actor_image_region {
+		position: relative;
+		width: 125px;
+	}
+	
+	.character_info {
+		width: 150px;
+	}
+	
+	.character_name {
+		width: 125px;
+		margin: 0 auto;
+	}
+	
+	.character_name p {
+		margin: 0;
+		margin-top: 3px;
+	}
+	
+	.character_name p:nth-child(2) {
+		font-size: 18px;
+		font-weight: bold;
+		margin-top: 4px;
+		color: #f25422;
+	}
+	
+	.movie_acting_role_type_display_name {
+		font-style: italic;
+		font-size: 15px;
+	}
+	
+/* RATING */
+
+	.rated {
+		position: relative;
+	}
+	
+	.rated .descriptor {
+		display: block;
+		float: left;
+		padding-right: 5px;
+		padding-top: 2px;
+	}
+	
+	.rated .injected {
+		display: block;
+		float: left;
+		width: 615px;
+	}
+	
+	.rated .rated_image {
+		background: white;
+		height: 15px;
+		border: solid 1px white;
+		vertical-align: text-bottom;
+		display: block;
+		float: left;
+		margin-right: 5px;
+	}
+	
+	.rated .rated_reason {
+		display: block;
+		float: left;
+		width: 500px;
+		font-style: italic;
+		font-size: 11px;
+	}
+	
+/* MOVIE */
+
+	.default_poster_class {
+		height: 120px;
+		margin-top: -4px;
+		padding: 10px;
+		width: 120px;
+	}
+
+	.page2-img1 {
+		border: 1px solid #f25422;
+		border-radius: 7px;
+	}
+	
+/* TRAILER */
+
+	.trailer {
+		float: left;
+		margin-left: 160px;
+	}
+
+	.trailer_image_container {
+		position: relative;
+	}
+	
+	.trailer_image {
+		background-image: url(/images/mcclint/trailer_frame.png);
+		background-size: cover;
+		border-radius: 25px;
+		padding: 45px 21px 48px;
+		width: 320px;
+		height: 180px;
+	}
+	
+	/* Play Icons */
+
+		.play_icon {
+			height: auto;
+			left: 162px;
+			opacity: 0.9;
+			position: absolute;
+			top: 123px;
+		}
+	
+		/* .play_icon .active {  /* Custom Icon
+			position: absolute;
+			width: 100px;
+			height: auto;
+			left: 130px;
+			top: 84px;
+			/* opacity: 1.0;
+		} */
+		
+	.trailer_opener {
+		position: relative;
+		margin-left: 160px;
+	}
+	
+	.actor_movies .trailer_opener img /* ,
+	.actor_movies .video iframe */ {
+		cursor: pointer;
+	}
+	
+	.youtube_powered_small {
+		margin-left: 248px;
+		margin-top: 3px;
+	}
+	
+	.youtube_powered_large {
+		margin-left: 302px;
+		margin-top: 6px;
+		float: left;
+	}
+
+/* AMAZON */
+
+	.amazon {
+		float: left;
+		margin-left: 27px;
+		margin-top: 68px;
+		text-align: center;
+	}
+	
+	.amazon .text {
+		color: #292929;
+		font-variant: small-caps;
+		margin: 0 auto;
+		width: 126px;
+		background-color: #f25422;
+		height: 32px;
+	}
+	
+	.amazon .top {
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+		font-size: 18px;
+		font-weight: bold;
+		padding-bottom: 5px;
+		padding-top: 7px;
+	}
+	
+	.text.top p {
+		margin-top: 9px;
+	}
+	
+	.amazon .ajax {
+		border: 3px solid #f25422;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	
+	.amazon .bottom {
+		border-bottom-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+		font-size: 15px;
+		font-weight: bold;
+		padding-bottom: 7px;
+	}
+	
+	.amazon .text > p {
+		margin-bottom: 0;
+	}
+	
+	.amazon .bottom > p:nth-child(1) {
+		font-size: 12px;
+	}
+	
+	
+
+
+
+
+	
+	
+	
+	
