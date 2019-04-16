@@ -1,0 +1,261 @@
+/* CSS - PLAYLIST */
+
+/* Summary Block - Start */
+
+#core .summary_block {
+	color: white;
+	padding: 5px;
+	border-radius: 55px;
+}
+
+.summary_block > div {
+	float: left;
+}
+
+.summary_block > div:last-of-type {
+	float: right;
+}
+
+.summary_block .img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: relative;  /* Centering */
+	background-color: black;
+	border: solid white 1px;
+}
+
+.summary_block img {
+	/* Centering - Start */
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	/* Centering - End */
+	width: 100px;
+	height: auto;
+}
+
+.summary_block .description {
+	text-align: center;
+	width: 339px;
+}
+
+.summary_block .description * {
+	margin: 0;
+	padding: 0;
+}
+
+.summary_block .description p {
+	font-size: 0.6em;
+}
+
+.summary_block .hits {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: white;
+	color: black;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+}
+
+.summary_block .hits .meat {
+	position: relative;
+	top: 15px;
+}
+
+.summary_block .hits p {
+	margin: 0;
+	padding: 0;
+}
+
+/* Summary Block - End */
+
+.playlist {
+	z-index: 1;
+	margin-bottom: 10px;
+}
+
+.playlist .week_of {
+	text-align: center;
+	color: white;
+	padding-top: 3px;
+	padding-bottom: 4px;
+	width: 562px;
+}
+
+.playlist .week_of > div {
+	display: inline-block;
+}
+
+.playlist .playlist_item,
+.playlist .week_of,
+#sort_bar,
+.summary_block {
+	border-radius: 30px;
+	margin-bottom: 10px;
+	/* Vertical Middle - Variable Height - Start */
+		position: relative;
+	/* Vertical Middle - Variable Height - End */
+}
+
+.playlist .text_area {
+	float: left;
+	color: white;
+	width: 255px;
+	margin-left: 185px;
+}
+
+.playlist .playlist_item {
+	/*height: 48px;*/
+	cursor: pointer;
+	padding-bottom: 4px;
+	border: solid 2px black;
+}
+
+.playlist .playlist_item.live {
+}
+
+.playlist .oval {
+	background-color: white;
+	border-radius: 25px;
+	margin-right: 5px;
+	width: 100px;
+	height: 50px;
+}
+
+#calendar {
+	position: absolute;
+	top: -4px;
+	right: 4px;
+}
+
+#calendar .clock_arms {
+	position: absolute;
+}
+
+#datepicker {
+	display: none;
+}
+
+#calendar:hover {
+	cursor: pointer;
+	cursor: hand;
+}
+
+#calendar > img {
+	
+}
+
+.playlist .playlist_item .item_number {
+	float: left;
+	margin-left: 5px;
+}
+
+.playlist .item_number p {
+	line-height: 50px;
+	color: black;
+	text-align: center;
+	overflow: hidden;
+}
+
+.playlist .item_number > p {
+	margin: 0;
+	padding: 0;
+	background-image: url(/assets/images/song_rank_long.png);
+	background-repeat: no-repeat;
+	background-position: 3px 6px;
+}
+
+.playlist .video_image {
+	float: left;
+	width: auto;
+	border: solid white 1px;
+	height: 38px;
+	left: 115px;
+}
+
+.playlist .title {
+	margin: 0;
+	padding: 0;
+	margin-left: 10px;
+	margin-top: 5px;
+	font-size: 15px;
+}
+
+.playlist .artist, 
+.playlist .highest_rank, 
+.playlist .highest_rank_week {
+	margin: 0;
+	padding: 0;
+	margin-left: 10px;
+	font-size: 12px;
+}
+
+.playlist .highest_rank {
+	font-size: 11px;
+}
+
+.playlist .highest_rank_week {
+	margin-left: 0px;
+}
+
+.playlist .saved {
+	float: right;
+	margin-left: 445px;
+}
+
+.playlist .saved .heart {
+	height: 38px;
+	margin-left: 30px;
+	margin-top: 7px;
+}
+
+.playlist .saved .heart.filled {
+	display: none;
+}
+
+.playlist .saved .heart.empty {
+	display: block;
+}
+
+/* //////// */
+/* Sort Bar */
+/* //////// */
+
+#sort_bar {
+	color: white;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#sort_bar > div {
+	padding-bottom: 5px;
+}
+
+#sort_bar > div.title {
+	font-variant: small-caps;
+	margin: 0px;
+}
+
+#sort_bar > div.controls {
+	
+}
+
+#sort_bar > div.title h3 {
+	
+}
+
+#sort_bar > div.controls > .button {
+	width: 20%;
+	display: inline-block;
+	margin: 0px 5px 0px 5px;
+	padding: 5px 0px 5px 0px;
+	text-decoration: none;
+}
+
+
