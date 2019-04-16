@@ -1,1 +1,1 @@
-The files contained represent about 5% of the entire application and are in no way all-encompassing of the entire coded solution. The files provided demonstrate coding examples and collaborative implementation of HTML, CSS, JavaScript, jQuery, PHP, and MySQL technologies.
+The files contained represent about 5% of the entire application and are in no way all-encompassing of the entire coded solution. The files provided demonstrate coding examples and collaborative implementation of HTML, CSS, JavaScript, jQuery, PHP, and MySQL technologies among others.
