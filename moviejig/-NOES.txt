@@ -1,1 +1,0 @@
-The files contained represent about 5% of the entire application and are in no way all-encompassing of the entire coded solution.
