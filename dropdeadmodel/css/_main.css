@@ -1,0 +1,203 @@
+	/* MAIN - HOME - TOP - PIC ROW */
+	
+		div.row-pic div.main figure,
+		div.row-pic div.main figure a img {
+			border-radius: 15px;
+		}
+
+	/* COLORS */
+		.pink
+		{
+			color: #FB4361;
+		}
+		
+		.next_button
+		{
+			color: white;
+			margin-top: 10px;
+		}
+
+	/* STAR BUTTON */
+	
+		.pro_btn_wide span {
+			height: 32px;
+			width: 32px;
+		}
+
+		.pro_btn_wide.pro_star span {
+			background: url("../images/icons/icons-color2.png") repeat scroll 0px -201px transparent;
+			display: inline-block;
+			margin: 0 7px 0 0;
+		}
+
+	/* SLOGAN */
+	
+		.slogan {
+			position:absolute;
+			top: 90px;
+			left: 75px;
+		}
+		
+	/* AUDITION ATTRIBUTE */
+	
+		.me {
+			color: #FB4361;
+		}
+		
+	/* REGISTRATION TABLE */
+	
+		#loginForm th, #loginForm td {
+			text-align: left;
+			padding-right: 10px;
+			padding-bottom: 5px;
+
+		}
+		
+	/* TOP NAVIGATION */
+	
+		#Navigation_Top {
+			position: relative;
+			left: 50px;
+		}
+		
+		.sf-menu > li {
+			margin-left: 30px;
+		}
+		
+		.register {
+			position: relative;
+		}
+		
+		.register img {
+			position: absolute;
+			width: 51px;
+			height: auto;
+			left: 25px;
+			top: 9px;
+		}
+		
+	/* SOURCES - REFERENCES */
+	
+		p.sources {
+			font-style: italic;
+			font-size: 9px;
+		}
+		
+	/* MODEL PROFILE THUMB */
+	
+		td.photo_thumb {
+			width: 125px;
+			height: 125px;
+		}
+	
+		img.img_profile_photo_thumb {
+			width: auto;
+			max-width: 100px;
+			height: auto;
+			max-height: 100px;
+			border-radius: 10px;
+		}
+		
+	/* CONTACT FORM */
+	
+		form#contact-form-1 label input {
+			height: 25px;
+		}
+		
+		.address-1 {
+			padding-left: 45px;
+		}
+		
+		.address-2 {
+			padding-left: 64px;
+		}
+		
+		.address-2 span {
+			display: inline-block;
+			width: 52px;
+		}
+		
+	/* CLOUD */
+	
+		.cloud {
+			background-color: rgba(0,0,0,.25);
+			border-radius: 25px;
+			padding: 10px;
+		}
+		
+	/* PROFILE CONTENT BLOCKS */
+	
+		div.profile_content {
+			margin-left: 100px;
+			margin-bottom: 50px;
+		}
+		
+	/* MODEL RANKING */
+	
+		table.model_rank tr td table tr td:first-of-type {
+			width: 200px;
+			text-align: center;
+		}
+		
+	/* MODEL PROFILE */
+	
+		table.profile_meas tr td:first-of-type {
+			width: 90px;
+			font-weight: bold;
+			font-size-adjust: .6;
+		}
+	
+	/* MODEL PHOTOS */
+		
+		/* STAR BAR */
+		
+			.star_wrapper {
+				position: relative;
+				width: 125px;
+				height: 25px;
+				margin: 0 auto;
+			}
+			
+			.dead_stars {
+				background-image: url(../images/dead_star.png);
+				background-repeat: repeat-x;
+				height: 25px;
+				width: 125px;
+				opacity: .5;
+			}
+			
+			.live_stars {
+				position: absolute;
+				top: 0px;
+				background-image: url(../images/live_star.png);
+				background-repeat: repeat-x;
+				height: 25px;
+				
+			}
+			
+		/* PHOTOS - TABLE TITLES */
+		
+			.title {
+				font-weight: bold;
+				color: #FB4361;
+				padding-top: 10px;
+			}
+			
+		/* PUBLIC RATING CELL */
+		
+			.rating, .popularity_photo, .popularity_model {
+				width: 200px;
+				height: 100px;
+				margin-right: 10px;
+				text-align: center;
+			}
+		
+		/* PHOTO POPULARITY RANK CELL */
+		
+	/* FOOTER */
+	
+		.center {
+			margin: 0 auto;
+			text-align: center;
+		}
+		
